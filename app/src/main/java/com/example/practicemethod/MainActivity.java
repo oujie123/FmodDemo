@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        path = "file:///android_assets/audio.m4a";
+        path = "file:///android_asset/audio.m4a";
 
         initView();
         FMOD.init(this);
