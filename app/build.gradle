@@ -15,12 +15,12 @@ android {
                 //cppFlags "armeabi-v7a" //默认四大平台都会生成
 
                 // 指定CPU架构，指定Cmake本地库，只处理一个平台，加快编译速度
-                abiFilters "armeabi-v7a"  //只写此选项默认还是会生成4个平台的so
+                abiFilters "arm64-v8a"  //只写此选项默认还是会生成4个平台的so
             }
         }
         ndk {
             // 指定APK打入那些架构的so库
-            abiFilters "armeabi-v7a"
+            abiFilters "arm64-v8a"
         }
     }
     buildTypes {
